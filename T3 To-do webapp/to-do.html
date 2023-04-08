@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>To-Do App</h1>
+	<div class="container">
+		<div class="add-task">
+			<h2>Add Task</h2>
+			<form id="add-task-form">
+				<label for="task">Task:</label>
+				<input type="text" id="task" required>
+				<label for="date">Date:</label>
+				<input type="date" id="date" required>
+				<label for="time">Time:</label>
+				<input type="time" id="time" required>
+				<button type="submit" id="add-btn">Add</button>
+			</form>
+		</div>
+		<div class="pending-tasks">
+			<h2>Pending Tasks</h2>
+			<ul id="pending-list"></ul>
+		</div>
+		<div class="completed-tasks">
+			<h2>Completed Tasks</h2>
+			<ul id="completed-list"></ul>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

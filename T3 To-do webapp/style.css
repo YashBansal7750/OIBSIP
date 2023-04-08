@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: lightgreen;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: lightgoldenrodyellow;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-align: center;
+    color: darkgreen;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+button {
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 16px;
+	border: 2px solid black;
+	border-radius: 3px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+	background-color: #4CAF50;
+	color: #fff;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+li.completed {
+	background-color: lightblue;
+}
+
+li input[type="checkbox"] {
+	margin-right: 10px;
+    color: #4CAF50;
+}
+
+li label {
+	flex: 1;
+	font-size: 16px;
+}
+
+li button {
+	padding: 5px 10px;
+	font-size: 16px;
+	background-color: #f44336;
+	color: #fff;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin-left: 10px;
+	cursor: pointer;
+}

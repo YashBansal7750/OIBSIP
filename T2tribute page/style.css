@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #c86082;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: rgb(29, 201, 29);
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    color: aquamarine;
+}
